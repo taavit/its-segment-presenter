@@ -1,0 +1,44 @@
+{
+    "name": "its-segments-presenter",
+    "version": "1.0.0",
+    "description": "Prezentacja danych o ruchu na wybranych odcinkach z ITS Łódź",
+    "main": "index.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "tslint -p tsconfig.json",
+        "start": "webpack-dev-server -d",
+        "build": "webpack -p"
+    },
+    "author": "Dawid Królak <taavit@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "chart.js": "^2.7.1",
+        "leaflet": "^1.2",
+        "material-ui": "^0.19",
+        "react": "^16.1",
+        "react-chartjs-2": "^2.6.4",
+        "react-dom": "^16.1",
+        "react-highcharts": "^13.0",
+        "react-leaflet": "^1.7",
+        "react-tap-event-plugin": "^3.0.0"
+    },
+    "devDependencies": {
+        "@types/chart.js": "^2.6.13",
+        "@types/leaflet": "^1.2.2",
+        "@types/material-ui": "^0.18.4",
+        "@types/react": "^16.0.22",
+        "@types/react-chartjs-2": "^2.0.2",
+        "@types/react-dom": "^16.0.3",
+        "@types/react-leaflet": "^1.1.4",
+        "@types/react-tap-event-plugin": "^0.0.30",
+        "copy-webpack-plugin": "^4.2.0",
+        "html-webpack-plugin": "^2.30.1",
+        "source-map-loader": "^0.2",
+        "ts-loader": "^3.1",
+        "tslint": "^5.8",
+        "tslint-microsoft-contrib": "^5.0",
+        "typescript": "^2.6",
+        "webpack": "^3.8.1",
+        "webpack-dev-server": "^2.9.4"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "extends": "tslint-microsoft-contrib/recommended_ruleset",
+    "rules": {
+        "no-relative-imports": false,
+        "typedef": false,
+        "react-tsx-curly-spacing": false
+    },
+    "rulesDirectory": [
+        "node_modules/tslint-microsoft-contrib"
+    ]
+}
