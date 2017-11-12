@@ -10,7 +10,6 @@ import * as React from 'react';
 
 import { IMeasurement } from './../model/IMeasurement';
 import { ISegment } from './../model/ISegment';
-import { IStatPoint } from './../model/IStatPoint';
 import { SegmentMap } from './SegmentMap';
 import { StatChart } from './StatChart';
 
